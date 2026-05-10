@@ -1,0 +1,111 @@
+# Site <!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Professional Profile</title>
+    <style>
+        /* Tổng thể */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        /* Container */
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            background: #fff;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+
+        /* Header */
+        header {
+            text-align: center;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+
+        .avatar {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid #007bff;
+        }
+
+        h1 { margin: 10px 0 5px; color: #222; }
+        .tagline { color: #007bff; font-weight: bold; font-size: 1.1em; }
+
+        /* Section */
+        section { margin-bottom: 30px; }
+        h2 { border-left: 5px solid #007bff; padding-left: 15px; color: #444; }
+
+        /* Kỹ năng */
+        .skills { display: flex; flex-wrap: wrap; gap: 10px; list-style: none; padding: 0; }
+        .skills li {
+            background: #e7f3ff;
+            color: #007bff;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.9em;
+        }
+
+        /* Liên hệ */
+        .contact-links a {
+            text-decoration: none;
+            color: #007bff;
+            margin-right: 15px;
+            font-weight: 500;
+        }
+
+        .contact-links a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <!-- Thay link ảnh của ông vào đây -->
+        <img src="https://via.placeholder.com/150" alt="Avatar" class="avatar">
+        <h1>[TÊN CỦA ÔNG]</h1>
+        <p class="tagline">Full-stack Developer | Designer | Tech Enthusiast</p>
+    </header>
+
+    <section id="about">
+        <h2>Giới thiệu</h2>
+        <p>Chào! Tôi là một người đam mê công nghệ với hơn [X] năm kinh nghiệm trong việc xây dựng các giải pháp sáng tạo. Tôi thích giải quyết các vấn đề phức tạp và biến ý tưởng thành hiện thực bằng code.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Kỹ năng</h2>
+        <ul class="skills">
+            <li>HTML/CSS/JS</li>
+            <li>React.js</li>
+            <li>Node.js</li>
+            <li>Python</li>
+            <li>UI/UX Design</li>
+            <li>Git & GitHub</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Kết nối với tôi</h2>
+        <div class="contact-links">
+            <a href="mailto:email@example.com">📧 Email</a>
+            <a href="https://linkedin.com/in/yourprofile" target="_blank">🔗 LinkedIn</a>
+            <a href="https://github.com/yourusername" target="_blank">💻 GitHub</a>
+            <a href="#">🌐 Website cá nhân</a>
+        </div>
+    </section>
+</div>
+
+</body>
+</html>
